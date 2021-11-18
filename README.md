@@ -1,4 +1,4 @@
-#Deep Convolutional Neural Networks for Breast Cancer Histology
+**Deep Convolutional Neural Networks for Breast Cancer Histology**
 
 Course Project | Guide: Prof. Biplab Banerjee | Machine Learning For Remote Sensing- II
 
@@ -37,6 +37,7 @@ Extracting features from COVID-19 images:
 
 
 Running preprocessed features on multiclass SVM (*bugs present):
+
 ●	Download “ICAR2018-master” from “covid and svm” folder
 
 ●	Run run_svm.py on cpu. 
@@ -47,16 +48,19 @@ Running preprocessed features on multiclass SVM (*bugs present):
 File description: 
 Main code file.ipynb: runs preprocessed features on lightgbm 
 ICIAR-2018 : 
+
 ●	Download models.py - downloads pretrained features and weights 
 
 ●	Crossvalidate_blending.py - finds 10-fold cross validation accuracy on presaved lgbm weights
 
 
 Covid: 
+
 ●	Feature extractor.py extracts features 
 
 
-Svm - 
+Svm:
+
 ●	Run_svm - runs preprocessed features on svm
 
 

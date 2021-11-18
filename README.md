@@ -6,10 +6,12 @@ Team Members
 1.	Prakash Prasad
 2.	Aditi Ganesh Joshi
 3.	Neha Jahnavi
+
 Original Paper: @article{rakhlin2018deep,title={Deep Convolutional Neural Networks for Breast Cancer Histology Image Analysis},author={Rakhlin, Alexander and Shvets, Alexey and Iglovikov, Vladimir and Kalinin, Alexandr A},journal={arXiv preprint arXiv:1802.00752},year={2018}}- https://github.com/alexander-rakhlin/ICIAR2018
+
 Presentation https://docs.google.com/presentation/d/1gfamCcPKf0OAzCFmkyPYjfg0F0ntA4CWlExavzHrN4Y/edit#slide=id.p
-Video
-https://drive.google.com/file/d/1ScwTMMey0wxIfGeqSPDXh2NMun7tnw77/view
+
+Video https://drive.google.com/file/d/1ScwTMMey0wxIfGeqSPDXh2NMun7tnw77/view
 
 
 We first use preprocessed features and see accuracy, next the same model is applied on COVID-19 CT-Scan image dataset in order to check how well the transfer learning model works. Finally, we try to use multiclass SVM and replace Light GBM and verify accuracy.

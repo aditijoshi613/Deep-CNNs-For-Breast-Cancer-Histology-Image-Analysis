@@ -17,7 +17,8 @@ Video https://drive.google.com/file/d/1ScwTMMey0wxIfGeqSPDXh2NMun7tnw77/view
 We first use preprocessed features and see accuracy, next the same model is applied on COVID-19 CT-Scan image dataset in order to check how well the transfer learning model works. Finally, we try to use multiclass SVM and replace Light GBM and verify accuracy.
 
 Code execution for running with pre-trained features:
-●	Add folder ICIAR-2018 in My Drive. 
+
+●	Add folder ICIAR-2018 in My Drive(See )
 
 ●	Open “Deep Convolutional Neural Networks for Breast Cancer Histology: Main code file.ipynb” on Google Colab and Run. 
 

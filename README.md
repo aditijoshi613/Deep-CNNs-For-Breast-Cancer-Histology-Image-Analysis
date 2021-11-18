@@ -15,30 +15,46 @@ We first use preprocessed features and see accuracy, next the same model is appl
 
 Code execution for running with pre-trained features:
 ●	Add folder ICIAR-2018 in My Drive. 
+
 ●	Open “Deep Convolutional Neural Networks for Breast Cancer Histology: Main code file.ipynb” on Google Colab and Run. 
+
 This code downloads preprocessed features of images, runs it on Light GBM classifier and gives 10-fold cross validation accuracy
 
 
 Extracting features from COVID-19 images: 
 ●	Download “COVID2020-master” from “covid and svm” folder
+
 ●	Run Feature_extractor.py in ide with cpu or gpu 
+
 ●	The code preprocesses covid images from “\Data\train”  and returns npy files
+
 ●	.npy files for each cnn model for each crop size [400, 600]  are stored in “data\preprocessed\"{}-{}-{}".format(NN_MODEL.__name__, 0.5, PATCH_SZ)”
+
 ●	Note that argparse module doesn’t allow running on ipynb kernels
+
 ●	ETA on CPU : 7days 2 hours 
+
 
 Running preprocessed features on multiclass SVM (*bugs present):
 ●	Download “ICAR2018-master” from “covid and svm” folder
+
 ●	Run run_svm.py on cpu. 
+
 ●	Bug present 
+
 
 File description: 
 Main code file.ipynb: runs preprocessed features on lightgbm 
 ICIAR-2018 : 
 ●	Download models.py - downloads pretrained features and weights 
-●	Crossvalidate_blending.py - finds 10-fold cross validation accuracy on presaved lgbm weights 
+
+●	Crossvalidate_blending.py - finds 10-fold cross validation accuracy on presaved lgbm weights
+
+
 Covid: 
 ●	Feature extractor.py extracts features 
+
+
 Svm - 
 ●	Run_svm - runs preprocessed features on svm
 

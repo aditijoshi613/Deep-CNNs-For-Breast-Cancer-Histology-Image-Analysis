@@ -18,7 +18,7 @@ We first use preprocessed features and see accuracy, next the same model is appl
 
 Code execution for running with pre-trained features:
 
-●	Add folder ICIAR-2018 in My Drive(See )
+●	Add folder ICIAR-2018 in My Drive(See ICIAR.html)
 
 ●	Open “Deep Convolutional Neural Networks for Breast Cancer Histology: Main code file.ipynb” on Google Colab and Run. 
 
@@ -26,7 +26,8 @@ This code downloads preprocessed features of images, runs it on Light GBM classi
 
 
 Extracting features from COVID-19 images: 
-●	Download “COVID2020-master” from “covid and svm” folder
+
+●	Download “COVID2020-master” from “covid and svm” folder(See Covid and svm.html)
 
 ●	Run Feature_extractor.py in ide with cpu or gpu 
 
@@ -49,7 +50,9 @@ Running preprocessed features on multiclass SVM (*bugs present):
 
 
 File description: 
+
 Main code file.ipynb: runs preprocessed features on lightgbm 
+
 ICIAR-2018 : 
 
 ●	Download models.py - downloads pretrained features and weights 
